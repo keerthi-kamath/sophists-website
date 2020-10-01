@@ -16,7 +16,17 @@ myenv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
+3. Make migrations
 
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
+4. Run server
+```bash
+python manage.py runserver
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
